@@ -39,6 +39,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#for testing in rails 5; not sure if this is the right place to put it
+gem 'rails-controller-testing'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
